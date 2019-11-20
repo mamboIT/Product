@@ -15,6 +15,7 @@ class ChallengeDetailsViewController: UIViewController {
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var button: UIButton!
     
+    var challenge : Challenge!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,5 +30,18 @@ class ChallengeDetailsViewController: UIViewController {
     
     }
     
-  
+    @IBAction func goToQuickStart(_ sender: UIButton) {
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "QuickStartVC") as? QuickStartViewController
+        {
+            if challenge != nil {
+                vc.quickstartChallenge = challenge
+            } else {
+                print("ERROR: Our challenge is not set")
+            }
+            
+         navigationController?.pushViewController(vc, animated: true)
+        }
+
+    }
+    
 }

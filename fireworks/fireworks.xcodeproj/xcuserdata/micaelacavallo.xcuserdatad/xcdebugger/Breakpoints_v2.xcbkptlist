@@ -3,4 +3,193 @@
    uuid = "665AD476-E7F7-4379-BB8A-9D54F24CA198"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67AEBA4B-EED7-4D7A-88A5-E8AA00F0CEF3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fireworks/ChallengesTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ChallengesTableViewController2"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "67AEBA4B-EED7-4D7A-88A5-E8AA00F0CEF3 - 7c3875cf513bbd18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fireworks.ChallengesTableViewController2.challengesArray.getter : Swift.Array&lt;fireworks.Challenge&gt;"
+                  moduleName = "fireworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/micaelacavallo/Desktop/fireworks/fireworks/ChallengesTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "67AEBA4B-EED7-4D7A-88A5-E8AA00F0CEF3 - 8ac901e6b7ced8dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fireworks.ChallengesTableViewController2.challengesArray.setter : Swift.Array&lt;fireworks.Challenge&gt;"
+                  moduleName = "fireworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/micaelacavallo/Desktop/fireworks/fireworks/ChallengesTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "67AEBA4B-EED7-4D7A-88A5-E8AA00F0CEF3 - 9a83a5ceed05ba09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fireworks.ChallengesTableViewController2.challengesArray.modify : Swift.Array&lt;fireworks.Challenge&gt;"
+                  moduleName = "fireworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/micaelacavallo/Desktop/fireworks/fireworks/ChallengesTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "67AEBA4B-EED7-4D7A-88A5-E8AA00F0CEF3 - 89cdac8946b1e225"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fireworks.ChallengesTableViewController2.challengesArray.modify : Swift.Array&lt;fireworks.Challenge&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "fireworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/micaelacavallo/Desktop/fireworks/fireworks/ChallengesTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "67AEBA4B-EED7-4D7A-88A5-E8AA00F0CEF3 - 44146a84ce9cf90d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fireworks.ChallengesTableViewController2.init(style: __C.UITableViewStyle) -&gt; fireworks.ChallengesTableViewController2"
+                  moduleName = "fireworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/micaelacavallo/Desktop/fireworks/fireworks/ChallengesTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  uuid = "67AEBA4B-EED7-4D7A-88A5-E8AA00F0CEF3 - fa0eb3f2f4a77583"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fireworks.ChallengesTableViewController2.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; fireworks.ChallengesTableViewController2"
+                  moduleName = "fireworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/micaelacavallo/Desktop/fireworks/fireworks/ChallengesTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "245">
+               </Location>
+               <Location
+                  uuid = "67AEBA4B-EED7-4D7A-88A5-E8AA00F0CEF3 - 86358037fc9d140f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fireworks.ChallengesTableViewController2.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;fireworks.ChallengesTableViewController2&gt;"
+                  moduleName = "fireworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/micaelacavallo/Desktop/fireworks/fireworks/ChallengesTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "177">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5E67834-81CA-4F9D-87E8-6240D9765B84"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fireworks/ChallengesTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA7C1F4C-41B4-444D-A9D0-C60D432AB0F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fireworks/ChallengesTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DD9AF39-F5A6-4F6C-B063-C86E3EBF9993"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fireworks/ChallengesTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8F764B8-A44D-4B5E-AEF0-29689CA061A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fireworks/ChallengesTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
