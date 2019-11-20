@@ -7,21 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56535FBD23832D5F007A0FA4 /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56535FBC23832D5F007A0FA4 /* SectionViewController.swift */; };
 		56A9C9B7238015F900210744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A9C9B6238015F900210744 /* AppDelegate.swift */; };
 		56A9C9B9238015F900210744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A9C9B8238015F900210744 /* SceneDelegate.swift */; };
 		56A9C9BB238015F900210744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A9C9BA238015F900210744 /* ViewController.swift */; };
 		56A9C9BE238015F900210744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A9C9BC238015F900210744 /* Main.storyboard */; };
 		56A9C9C0238015FA00210744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A9C9BF238015FA00210744 /* Assets.xcassets */; };
 		56A9C9C3238015FA00210744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A9C9C1238015FA00210744 /* LaunchScreen.storyboard */; };
-		56C3450C2381A5D1004FCF68 /* challengesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3450B2381A5D1004FCF68 /* challengesTableViewController.swift */; };
+		56C3450C2381A5D1004FCF68 /* ChallengesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3450B2381A5D1004FCF68 /* ChallengesTableViewController.swift */; };
 		56C3450E2381A976004FCF68 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3450D2381A976004FCF68 /* data.swift */; };
 		56C345122381B1FE004FCF68 /* ChallengeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C345112381B1FE004FCF68 /* ChallengeTableViewCell.swift */; };
 		C8C43B9B23855203000D02E5 /* QuickStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C43B9A23855203000D02E5 /* QuickStartViewController.swift */; };
+		C8C43B9D23855E66000D02E5 /* ChallengeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C43B9C23855E66000D02E5 /* ChallengeDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		56535FBC23832D5F007A0FA4 /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
 		56A9C9B3238015F900210744 /* fireworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fireworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A9C9B6238015F900210744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56A9C9B8238015F900210744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,10 +29,11 @@
 		56A9C9BF238015FA00210744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56A9C9C2238015FA00210744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56A9C9C4238015FA00210744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56C3450B2381A5D1004FCF68 /* challengesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challengesTableViewController.swift; sourceTree = "<group>"; };
+		56C3450B2381A5D1004FCF68 /* ChallengesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesTableViewController.swift; sourceTree = "<group>"; };
 		56C3450D2381A976004FCF68 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		56C345112381B1FE004FCF68 /* ChallengeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTableViewCell.swift; sourceTree = "<group>"; };
 		C8C43B9A23855203000D02E5 /* QuickStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartViewController.swift; sourceTree = "<group>"; };
+		C8C43B9C23855E66000D02E5 /* ChallengeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +69,10 @@
 				56A9C9B6238015F900210744 /* AppDelegate.swift */,
 				56A9C9B8238015F900210744 /* SceneDelegate.swift */,
 				56A9C9BA238015F900210744 /* ViewController.swift */,
-				56535FBC23832D5F007A0FA4 /* SectionViewController.swift */,
 				56C345112381B1FE004FCF68 /* ChallengeTableViewCell.swift */,
-				56C3450B2381A5D1004FCF68 /* challengesTableViewController.swift */,
+				56C3450B2381A5D1004FCF68 /* ChallengesTableViewController.swift */,
 				C8C43B9A23855203000D02E5 /* QuickStartViewController.swift */,
+				C8C43B9C23855E66000D02E5 /* ChallengeDetailsViewController.swift */,
 				56A9C9BF238015FA00210744 /* Assets.xcassets */,
 				56A9C9C1238015FA00210744 /* LaunchScreen.storyboard */,
 				56A9C9BC238015F900210744 /* Main.storyboard */,
@@ -155,12 +155,12 @@
 			files = (
 				56A9C9BB238015F900210744 /* ViewController.swift in Sources */,
 				56A9C9B7238015F900210744 /* AppDelegate.swift in Sources */,
-				56535FBD23832D5F007A0FA4 /* SectionViewController.swift in Sources */,
 				C8C43B9B23855203000D02E5 /* QuickStartViewController.swift in Sources */,
 				56A9C9B9238015F900210744 /* SceneDelegate.swift in Sources */,
 				56C345122381B1FE004FCF68 /* ChallengeTableViewCell.swift in Sources */,
 				56C3450E2381A976004FCF68 /* data.swift in Sources */,
-				56C3450C2381A5D1004FCF68 /* challengesTableViewController.swift in Sources */,
+				56C3450C2381A5D1004FCF68 /* ChallengesTableViewController.swift in Sources */,
+				C8C43B9D23855E66000D02E5 /* ChallengeDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
