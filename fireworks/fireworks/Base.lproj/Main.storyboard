@@ -154,6 +154,36 @@
             </objects>
             <point key="canvasLocation" x="-397.10144927536237" y="628.125"/>
         </scene>
+        <!--Congratulations View Controller-->
+        <scene sceneID="PDF-Z2-n4d">
+            <objects>
+                <viewController storyboardIdentifier="congratsVC" id="DMA-xv-Ean" customClass="CongratulationsViewController" customModule="fireworks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WJC-LV-mEl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPU-OG-w23" userLabel="ConfettiContainerView">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NcU-XY-Pln" firstAttribute="bottom" secondItem="XPU-OG-w23" secondAttribute="bottom" id="O12-Td-MJh"/>
+                            <constraint firstItem="XPU-OG-w23" firstAttribute="top" secondItem="NcU-XY-Pln" secondAttribute="top" id="OGE-UJ-F1Q"/>
+                            <constraint firstItem="NcU-XY-Pln" firstAttribute="trailing" secondItem="XPU-OG-w23" secondAttribute="trailing" id="UGx-N3-Dog"/>
+                            <constraint firstItem="XPU-OG-w23" firstAttribute="leading" secondItem="NcU-XY-Pln" secondAttribute="leading" id="YO8-aG-AOi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NcU-XY-Pln"/>
+                    </view>
+                    <connections>
+                        <outlet property="confettiView" destination="XPU-OG-w23" id="rWL-0O-94M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ulp-gJ-ivk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="594" y="618"/>
+        </scene>
         <!--Statistics-->
         <scene sceneID="uYp-8h-TcW">
             <objects>
@@ -362,14 +392,23 @@
                                     <constraint firstAttribute="width" constant="50" id="xv7-Zt-LPb"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51l-kE-xcS">
+                                <rect key="frame" x="90" y="749" width="234" height="30"/>
+                                <state key="normal" title="Trigger Congratulations Controller"/>
+                                <connections>
+                                    <action selector="triggerCongratulationsModal:" destination="Fec-2i-o5S" eventType="touchUpInside" id="3Aa-iw-iDR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="5zB-ht-0pu" firstAttribute="top" secondItem="2Fu-xz-shu" secondAttribute="topMargin" constant="121" id="6jH-kh-KMR"/>
                             <constraint firstItem="5zB-ht-0pu" firstAttribute="leading" secondItem="kpX-yj-l2s" secondAttribute="leading" constant="40" id="BTQ-jR-d69"/>
+                            <constraint firstItem="kpX-yj-l2s" firstAttribute="bottom" secondItem="51l-kE-xcS" secondAttribute="bottom" constant="34" id="D0i-ph-KWi"/>
                             <constraint firstAttribute="bottomMargin" secondItem="5zB-ht-0pu" secondAttribute="bottom" constant="114" id="JIa-Pa-ZAb"/>
                             <constraint firstItem="6aP-Nk-eQl" firstAttribute="top" secondItem="ds2-cJ-zAg" secondAttribute="bottom" constant="80" id="JXZ-VZ-H67"/>
                             <constraint firstItem="kpX-yj-l2s" firstAttribute="trailing" secondItem="5zB-ht-0pu" secondAttribute="trailing" constant="40" id="P3E-yB-fNi"/>
+                            <constraint firstItem="51l-kE-xcS" firstAttribute="centerX" secondItem="2Fu-xz-shu" secondAttribute="centerX" id="YGP-2z-tDb"/>
                             <constraint firstItem="Upi-YL-3hT" firstAttribute="centerX" secondItem="2Fu-xz-shu" secondAttribute="centerX" id="ZB4-fG-cHr"/>
                             <constraint firstItem="ds2-cJ-zAg" firstAttribute="centerX" secondItem="2Fu-xz-shu" secondAttribute="centerX" id="dkN-69-uMx"/>
                             <constraint firstItem="Upi-YL-3hT" firstAttribute="firstBaseline" secondItem="6aP-Nk-eQl" secondAttribute="baseline" constant="80" id="jlg-hI-scr"/>
