@@ -42,4 +42,13 @@ class QuickStartViewController: UIViewController {
         
         //go into a controller that allows changing user preferences
     }
+    
+    @IBAction func triggerCongratulationsModal(_ sender: Any) {
+        
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "congratsVC") as? CongratulationsViewController
+        {
+            present(vc, animated: true, completion: nil)
+        }
+    }
+    
 }
