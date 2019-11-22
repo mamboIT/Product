@@ -11,7 +11,7 @@
         <!--Challenges-->
         <scene sceneID="ntm-tv-ZJa">
             <objects>
-                <tableViewController id="uUF-Ge-8Kw" customClass="ChallengesTableViewController2" customModule="fireworks" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="uUF-Ge-8Kw" customClass="ChallengesTableViewController" customModule="fireworks" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="10" id="Fyq-Ky-jbr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -154,36 +154,6 @@
             </objects>
             <point key="canvasLocation" x="-397.10144927536237" y="628.125"/>
         </scene>
-        <!--Congratulations View Controller-->
-        <scene sceneID="PDF-Z2-n4d">
-            <objects>
-                <viewController storyboardIdentifier="congratsVC" id="DMA-xv-Ean" customClass="CongratulationsViewController" customModule="fireworks" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WJC-LV-mEl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPU-OG-w23" userLabel="ConfettiContainerView">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="NcU-XY-Pln" firstAttribute="bottom" secondItem="XPU-OG-w23" secondAttribute="bottom" id="O12-Td-MJh"/>
-                            <constraint firstItem="XPU-OG-w23" firstAttribute="top" secondItem="NcU-XY-Pln" secondAttribute="top" id="OGE-UJ-F1Q"/>
-                            <constraint firstItem="NcU-XY-Pln" firstAttribute="trailing" secondItem="XPU-OG-w23" secondAttribute="trailing" id="UGx-N3-Dog"/>
-                            <constraint firstItem="XPU-OG-w23" firstAttribute="leading" secondItem="NcU-XY-Pln" secondAttribute="leading" id="YO8-aG-AOi"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="NcU-XY-Pln"/>
-                    </view>
-                    <connections>
-                        <outlet property="confettiView" destination="XPU-OG-w23" id="rWL-0O-94M"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ulp-gJ-ivk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="594" y="618"/>
-        </scene>
         <!--Statistics-->
         <scene sceneID="uYp-8h-TcW">
             <objects>
@@ -203,7 +173,7 @@
         <!--Rewards-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="fireworks" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="congratsVC2" id="BYZ-38-t0r" customClass="CongratsViewController" customModule="fireworks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

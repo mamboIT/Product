@@ -45,7 +45,7 @@ class QuickStartViewController: UIViewController {
     
     @IBAction func triggerCongratulationsModal(_ sender: Any) {
         
-        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "congratsVC") as? ViewController
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "congratsVC2") as? CongratsViewController
         {
             present(vc, animated: true, completion: nil)
         }

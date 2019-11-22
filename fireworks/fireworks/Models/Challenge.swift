@@ -13,4 +13,5 @@ struct Challenge {
     let quickImage : String
     let title : String
     let description  : String
+    let headerImageName : String
 }
